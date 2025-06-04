@@ -22,5 +22,12 @@ public abstract class Dinobot extends Autobot implements IDino {
         activeWeapon = mainWeapon;
     }
 
+    @Override
+    public void transform() {
+        super.transform();
+
+        activeWeapon = isAltMode ? altWeapon : weapon;
+    }
+
     public abstract void attack(List<Transformer> targets);
 }

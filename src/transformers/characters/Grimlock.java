@@ -15,9 +15,7 @@ public class Grimlock extends Dinobot {
     @Override
     public void transform() {
         super.transform();
-
         System.out.println("Grimlock is transforming into T-Rex");
-        activeWeapon = isAltMode ? altWeapon : weapon;
     }
 
     @Override
