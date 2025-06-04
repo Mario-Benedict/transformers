@@ -1,6 +1,5 @@
 package transformers.characters;
 
-import interfaces.weapon.IGun;
 import transformers.Decepticon;
 import interfaces.mode.IFlight;
 
